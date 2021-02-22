@@ -1,0 +1,10 @@
+server:
+  port: 8000
+system:
+  # ffmpeg的可执行路径，如果设置了全局环境，可直接为ffmpeg
+  ffmpeg-executable-path: C:\Users\lucky god\Videos\video\ffmpeg.exe
+  pool:
+    # 核心线程数（开机启动数）
+    core-size: 2
+    # 最大线程数（最多启动数）
+    max-size: 4
